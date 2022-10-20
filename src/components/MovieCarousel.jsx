@@ -44,7 +44,7 @@ export default function CustomCarousel() {
           : window.innerWidth > 1200
           ? 1.68
           : 1,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 5000,
       arrows: false,
       className: "center",
